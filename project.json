@@ -1,0 +1,70 @@
+{
+  "name": "MultipleInvoices_DU_AC",
+  "description": "Data Extraction From Multiple Invoices through Document Understanding And Action Center\r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[21.10.0]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.13.2-preview]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.IntelligentOCR.Activities": "[6.0.1-preview]",
+    "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.OmniPage.Activities": "[1.9.0-preview]",
+    "UiPath.Persistence.Activities": "[1.3.4]",
+    "UiPath.System.Activities": "[22.4.0]",
+    "UiPath.UIAutomation.Activities": "[22.4.2-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "DefaultTenant",
+      "namespace": "MultipleInvoices_DU_AC",
+      "uniqueReference": "E1dH+xdy5WDBF13hfdDFlhYQhPb/RzCXDvNj0XemJxg="
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "ef0cdd10-ccee-46a3-97c0-69e7365864ca",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
